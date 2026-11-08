@@ -1,0 +1,2 @@
+;; Indent the body of `meditations` like a block, as the koans are written.
+{:extra-indents {meditations [[:block 0]]}}

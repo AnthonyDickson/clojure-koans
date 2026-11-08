@@ -3,10 +3,10 @@
 
 (defn explain-exercise-velocity [exercise-term]
   (case exercise-term
-        :bicycling        "pretty fast"
-        :jogging          "not super fast"
-        :walking          "not fast at all"
-        "is that even exercise?"))
+    :bicycling        "pretty fast"
+    :jogging          "not super fast"
+    :walking          "not fast at all"
+    "is that even exercise?"))
 
 (meditations
   "You will face many decisions"
@@ -35,8 +35,8 @@
 
   "Or your fate may be sealed"
   (= 'doom (if-not (zero? __)
-          'doom
-          'more-doom))
+             'doom
+             'more-doom))
 
   "In case of emergency, go fast"
   (= "pretty fast"

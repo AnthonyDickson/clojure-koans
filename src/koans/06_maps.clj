@@ -49,7 +49,7 @@
 
   "Often you will need to get the keys, but the order is undependable"
   (= (list __ __ __)
-     (sort (keys { 2014 "Sochi" 2018 "PyeongChang" 2010 "Vancouver"})))
+     (sort (keys {2014 "Sochi" 2018 "PyeongChang" 2010 "Vancouver"})))
 
   "You can get the values in a similar way"
   (= (list __ __ __)

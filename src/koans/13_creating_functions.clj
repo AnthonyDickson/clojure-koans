@@ -10,8 +10,8 @@
 
   "Praise and 'complement' may help you separate the wheat from the chaff"
   (= [:wheat "wheat" 'wheat]
-       (let [not-nil? ___]
-         (filter not-nil? [nil :wheat nil "wheat" nil 'wheat nil])))
+     (let [not-nil? ___]
+       (filter not-nil? [nil :wheat nil "wheat" nil 'wheat nil])))
 
   "Partial functions allow procrastination"
   (= 20 (let [multiply-by-5 (partial * 5)]
@@ -19,8 +19,8 @@
 
   "Don't forget: first things first"
   (= [__ __ __ __]
-       (let [ab-adder (partial concat [:a :b])]
-         (ab-adder [__ __])))
+     (let [ab-adder (partial concat [:a :b])]
+       (ab-adder [__ __])))
 
   "Functions can join forces as one 'composed' function"
   (= 25 (let [inc-and-square (comp square inc)]

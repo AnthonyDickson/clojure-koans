@@ -1,7 +1,6 @@
 (ns koans.18-quote
   (:require [koan-engine.core :refer :all]))
 
-
 (meditations
   "Wrap a quote around a list to suppress evaluation"
   (= (quote (1 2 3 4 5)) __)

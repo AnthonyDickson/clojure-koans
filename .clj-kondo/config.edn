@@ -1,0 +1,3 @@
+;; Every koan refers all of koan-engine.core to get `meditations` and the `__`
+;; and `___` blanks. A type error on a blank is expected until it is filled in.
+{:linters {:refer-all {:exclude [koan-engine.core]}}}

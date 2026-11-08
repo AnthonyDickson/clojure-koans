@@ -1,0 +1,6 @@
+# Helix runs clojure-lsp for Clojure by default and finds the project from deps.edn.
+
+[[language]]
+name = "markdown"
+formatter = { command = "dprint", args = ["fmt", "--stdin", "md"]}
+rulers = [120]

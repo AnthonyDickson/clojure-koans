@@ -204,3 +204,14 @@ sftp-config.json
 # Vagrant
 .vagrant/
 ubuntu-xenial-16.04-cloudimg-console.log
+### Clojure CLI and tooling ###
+.cpcache/
+.lsp/
+.clj-kondo/*
+!.clj-kondo/config.edn
+.rebel_readline_history
+
+### Nix ###
+result
+result-*
+.direnv

@@ -285,4 +285,59 @@
                            "Hello there"
                            1
                            6]}]
+
+ ["28_parsing_and_math" {"__" [42
+                               1500.0
+                               nil
+                               nil
+                               java.util.UUID
+                               false
+                               -7
+                               true
+                               true
+                               2.0
+                               [2.0 3.0 4.0]]}]
+
+ ["29_updating_maps" {"__" [{:a 2 :b 3}
+                            2
+                            {:apples 3 :pears 5}]
+                      "___" [name
+                             keyword]}]
+
+ ["30_keyword_arguments" {"__" ["Hi, Rich!"
+                                {:greeting "Hi" :punctuation "?"}
+                                "Hey, Rich."
+                                "Yo, Rich!"
+                                :koans.users/name
+                                "Ada"]}]
+
+ ["31_iteration" {"__" [{:items [:a :b] :next-page 1}
+                        1
+                        3
+                        [[:a :b] [:c :d] [:e]]
+                        cat
+                        [[:a :b] 1]]}]
+
+ ["32_vector_partitions" {"__" [[[1 2] [3 4]]
+                                false true
+                                [[1 2] [3 4] [5]]
+                                [[0 1] [3 4] [6 :x]]
+                                [[:a :b] [:c :d]]]}]
+
+ ["33_modern_java_interop" {"__" [["SELECT" "FROM" "WHERE"]
+                                  Long/parseLong
+                                  ["hello" "world"]
+                                  "ff"
+                                  ["10" "20"]
+                                  String/1
+                                  long/2
+                                  [1 3 5]
+                                  "fallback"]}]
+
+ ["34_java_streams" {"__" [[1 2 3]
+                           10
+                           #{2 3 4}
+                           20
+                           [1 3]
+                           :used-up]}]
 ]

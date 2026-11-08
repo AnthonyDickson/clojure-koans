@@ -18,15 +18,15 @@
   (= __
      (group-by :id [{:id 1 :name "Bob"}
                     {:id 2 :name "Jennifer"}
-                    {:id 1 :last-name "Smith"} ]))
+                    {:id 1 :last-name "Smith"}]))
 
   "But be careful when you group by a non-required key"
   (= {"Bob" [{:name "Bob" :id 1}]
       "Jennifer" [{:name "Jennifer" :id 2}]
       __ [{:last-name "Smith" :id 1}]}
-   (group-by :name [{:id 1 :name "Bob"}
-                    {:id 2 :name "Jennifer"}
-                    {:id 1 :last-name "Smith"}]))
+     (group-by :name [{:id 1 :name "Bob"}
+                      {:id 2 :name "Jennifer"}
+                      {:id 1 :last-name "Smith"}]))
 
   "The true power of group-by comes with custom functions"
   (= __

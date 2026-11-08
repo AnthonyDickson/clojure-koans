@@ -34,9 +34,9 @@
 
   "Two worlds are better than one"
   (= ["Real Jerry" "Bizarro Jerry"]
-       (do
-         (dosync
-          (ref-set the-world {})
-          (alter the-world assoc :jerry "Real Jerry")
-          (alter bizarro-world assoc :jerry "Bizarro Jerry")
-          __))))
+     (do
+       (dosync
+        (ref-set the-world {})
+        (alter the-world assoc :jerry "Real Jerry")
+        (alter bizarro-world assoc :jerry "Bizarro Jerry")
+        __))))

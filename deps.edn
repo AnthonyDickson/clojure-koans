@@ -1,0 +1,14 @@
+{:paths ["src" "resources"]
+
+ :deps {org.clojure/clojure {:mvn/version "1.12.6"}
+        koan-engine/koan-engine {:mvn/version "0.2.5"}}
+
+ :aliases
+ {;; `clojure -M:koans run|test|random`, see dev/runner.clj and the justfile.
+  :koans
+  {:extra-paths ["dev"]
+   :main-opts ["-m" "runner"]}
+
+  ;; A REPL in the user namespace with the koan engine's helpers at hand.
+  :koans-repl
+  {:extra-paths ["dev"]}}}
